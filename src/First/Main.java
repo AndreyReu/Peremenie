@@ -16,7 +16,7 @@ public class Main {
 
         long Salary = juniorSalaryForHour + middleSalaryForHour + seniorSalaryForHour + tmSalaryForHour;
         double YearForDream = timeToStudyYear + timeForTm;
-        boolean money = Salary > 150000;
+        boolean money = true;
         System.out.println("Заработал " + Salary + currency + " за " + YearForDream + " лет! " + money);
 
         //Задание №2:
@@ -30,11 +30,10 @@ public class Main {
         //Задание №3:
         short bananaWeight = 5 * 80;
         short milkWeight = 2 * 105;
-        int icecreamWeight = 2 * 100;
+        int icWeight = 2 * 100;
         long eggWeight = 4 * 70L;
-        long cooking = bananaWeight + milkWeight + icecreamWeight + eggWeight;
-        float cooking1 = cooking;
-        float cookingKg = cooking1 / 1000;
+        long cooking = bananaWeight + milkWeight + icWeight + eggWeight;
+        float cookingKg = (float) cooking / 1000;
         System.out.println("Общий вес спорт-завтрака " + cooking + " грамм или " + cookingKg + " кг.");
 
         //Задание №4:
