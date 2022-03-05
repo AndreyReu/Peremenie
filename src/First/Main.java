@@ -49,19 +49,18 @@ public class Main {
                 " дней при диете с потерей веса по 500 грамм на день, среднее количество дней " + middlePutsAwayWeights);
 
         //Задание №5:
-
-        var SalaryForMasha = 67760 * 1.1;
-        double SalaryForDenis = 83690 * 1.1;
-        var SalaryForKristina = 76320 * 1.1;
+        var SalaryForMasha = 67760 / 10 + 67760;
+        var SalaryForDenis = 83690 / 10 + 83690;
+        var SalaryForKristina = 76320 / 10 + 76320;
         var yearSalaryMasha = (SalaryForMasha - 67760) * 12;
-        double yearSalaryForDenis = (SalaryForDenis - 83690) * 12;
+        var yearSalaryForDenis = (SalaryForDenis - 83690) * 12;
         var yearSalaryForKristina = (SalaryForKristina - 76320) * 12;
 
-        System.out.println("Маша теперь получает " + SalaryForMasha + " рублей. Годовой доход вырос на "
+        System.out.println("Маша теперь получает " + SalaryForMasha + " рублей. Годовой доход Маши вырос на "
                 + yearSalaryMasha + " рублей.");
         System.out.println("Денис теперь получает " + SalaryForDenis + " рублей, его годовой доход вырос на "
                 + yearSalaryForDenis + " рублей.");
-        System.out.println("Кристина теперь получает " + SalaryForKristina + " рублей. Годовой доход вырос на "
+        System.out.println("Кристина теперь получает " + SalaryForKristina + " рублей, её годовой доход вырос на "
                 + yearSalaryForKristina + " рублей.");
 
 
